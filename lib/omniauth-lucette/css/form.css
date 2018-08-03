@@ -1,0 +1,72 @@
+body {
+  background-color: #fcf0f0;
+}
+
+div#wrapper {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+div#wrapper h5#title {
+  margin-bottom: 50px;
+  font-family: "Times Sans Serif";
+  text-align: center;
+  font-size: 1.125em;
+}
+
+form#login {
+  text-align: right;
+}
+
+form#login input {
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  line-height: 38px;
+
+  min-width: 40%;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05) inset;
+  transition: background 0.2s ease;
+
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  margin: 0 0 1em 0;
+  margin-bottom: 1em;
+  width: 100%;
+  box-sizing: border-box;
+
+  font-family: "Droid Sans";
+}
+
+form#login button[type="submit"] {
+  font-family: "Times Sans Serif";
+  height: 45px;
+  border: 2px solid #f03;
+  background-color: #f03;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 40%;
+  min-width: 140px;
+  display: block;
+  margin: 20px auto;
+}
+
+a#no-account {
+  font-family: "Droid Sans";
+  color: #c49d50;
+}
+
+a#password-forgotten {
+  font-family: "Droid Serif";
+  color: #afafaf;
+  font-style: italic;
+  text-decoration: none;
+}

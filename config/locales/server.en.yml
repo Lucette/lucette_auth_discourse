@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    lucette_auth_enabled: "Is auth Lucette plugin enabled?"
+    lucette_auth_endpoint: "Authentication endpoint of Lucette API"

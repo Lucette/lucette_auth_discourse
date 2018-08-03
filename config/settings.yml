@@ -1,0 +1,5 @@
+plugins:
+  lucette_auth_enabled:
+    default: true
+  lucette_auth_endpoint:
+    default: 'https://lucette.com/api/auth/login'

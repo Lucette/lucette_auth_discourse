@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Lucette</title>
+	<style type='text/css'><%= @css %></style>
+    </head>
+    <body>
+	<div id="wrapper">
+	    <h5 id="title">BONJOUR, HEUREUSE DE VOUS RETROUVER !</h5>
+	    <form id="login" method="post" action="<%= @url %>" noValidate="noValidate">
+		<input type="text" id="email" name="email" placeholder="Adresse mail" />
+		<input type="password" id="password" name="password" placeholder="Mot de passe" />
+		<a id="password-forgotten" href="https://lucette.com">Oups, j'ai oublié mon mot de passe !</a>
+		<button type="submit">Se connecter</button>
+	    </form>
+	    <a id="no-account" href="https://lucette.com">Je n'ai pas encore de compte</a>
+	</div>
+    </body>
+</html>

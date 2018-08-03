@@ -1,0 +1,4 @@
+fr:
+  site_settings:
+    lucette_auth_enabled: "Est-ce que le plugin auth Lucette est activé?"
+    lucette_auth_hostname: "Point d'accès pour l'authentification sur Lucette API"
